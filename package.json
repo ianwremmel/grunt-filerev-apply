@@ -1,0 +1,43 @@
+{
+  "name": "grunt-filerev-apply",
+  "version": "0.0.1",
+  "description": "Replaces paths to unrevved files with the output of grunt-filerev.",
+  "homepage": "https://github.com/ianwremmel/grunt-filerev-apply",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": "https://github.com/ianwremmel/grunt-filerev-apply/issues"
+  },
+  "author": {
+    "name": "Ian W. Remmel",
+    "email": "design@ianwremmel.com",
+    "url": "http://www.ianwremmel.com"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "peerDependencies": {
+    "grunt-filerev": "~0.2.0"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.2.0",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt": "~0.4.0rc2",
+    "load-grunt-tasks": "~0.2.0",
+    "jshint-stylish": "~0.1.3"
+  },
+  "dependencies": {
+    "lodash": "~2.4.1"
+  }
+}
