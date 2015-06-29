@@ -5,7 +5,7 @@
   "homepage": "https://github.com/ianwremmel/grunt-filerev-apply",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/ianwremmel/grunt-filerev-apply.git"
   },
   "bugs": {
     "url": "https://github.com/ianwremmel/grunt-filerev-apply/issues"
@@ -28,7 +28,7 @@
     }
   ],
   "peerDependencies": {
-    "grunt-filerev": "~0.2.0"
+    "grunt-filerev": "*"
   },
   "devDependencies": {
     "grunt-contrib-jshint": "~0.2.0",
