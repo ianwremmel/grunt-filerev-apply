@@ -51,6 +51,25 @@ Default value: `''`
 
 The string to strip from the beginning of each found revved file before search for it in the specified files. `options.prefix` will likely be used in the majority of cases.
 
+You can use an string Array to strip multiples paths sequentially in searches.
+
+### Usage Examples
+
+-build  
+|- app  
+|- assets  
+
+```javascript
+prefix: ['build', 'assets']
+```
+Will ignore "build" AND "build/assets", but NOT "build/app"
+
+#### options.unixfy
+Type: `Boolean`
+Default value: `false`
+
+The unixfy when set true changes the default Windows path separator from '\' to '/' before search.
+
 ### Usage Examples
 
 #### Default Options
