@@ -55,9 +55,9 @@ You can use an string Array to strip multiples paths sequentially in searches.
 
 ### Usage Examples
 
--build
-|- app
-|- assets
+-build  
+|- app  
+|- assets  
 
 ```javascript
 prefix: ['build', 'assets']
