@@ -1,6 +1,6 @@
 {
   "name": "grunt-filerev-apply",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Replaces paths to unrevved files with the output of grunt-filerev.",
   "homepage": "https://github.com/ianwremmel/grunt-filerev-apply",
   "repository": {
