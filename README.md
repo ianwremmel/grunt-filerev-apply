@@ -1,4 +1,5 @@
 # grunt-filerev-apply
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
 
 > Replaces paths to unrevved files with the output of grunt-filerev.
 
@@ -101,4 +102,3 @@ Copyright (c) 2013 Ian W. Remmel. Licensed under the MIT license.
 
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/ianwremmel/grunt-filerev-apply/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
