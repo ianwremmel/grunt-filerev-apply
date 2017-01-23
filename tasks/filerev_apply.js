@@ -20,8 +20,8 @@ module.exports = function (grunt) {
 
     var summary = {};
     _.each(grunt.filerev.summary, function(value, key) {
-      key = key.substr(options.prefix.length).replace(/\\/g, "/");
-      value = value.substr(options.prefix.length).replace(/\\/g, "/");
+      key = key.replace(/\\/g, "/").replace(options.prefix, "");
+      value = value.replace(/\\/g, "/").replace(options.prefix, "");
       summary[key] = value;
     });
 
