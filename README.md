@@ -1,4 +1,6 @@
 # grunt-filerev-apply
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/ianwremmel/grunt-filerev-apply.svg)](https://greenkeeper.io/)
 [![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
 
 > Replaces paths to unrevved files with the output of grunt-filerev.
